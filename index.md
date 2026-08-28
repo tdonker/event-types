@@ -1,5 +1,5 @@
 # Event Types: A Typology and Reference Guide
-A curated reference of event types, their definitions, and the literature in which they appear
+A curated set of event types with corresponding definitions and literature references
 <br>
 <br>
 
