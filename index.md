@@ -2,7 +2,7 @@
 A curated overview of event types, definitions, patterns, and literature in event-driven systems
 <br>
 
-*updates:*<br>
+*Recent changes:*<br>
 *28.08.2026: Anemic Events (Mark Richard)*<br>
 *21.08.2026: CRUD events and semantic coupling (Derek Comartin)*<br>
 *11.04.2026: Domain Events (David Boyne) and ECST as business process state changes (Ryan Cormack)*<br>
