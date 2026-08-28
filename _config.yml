@@ -1,0 +1,17 @@
+title: My Docs
+description: A test docs site
+remote_theme: just-the-docs/just-the-docs
+
+# Just the Docs options
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+
+# Aux links shown in top-right
+aux_links:
+  "View on GitHub": "//github.com/<your-username>/<repo-name>"
+
+# Footer
+footer_content: "Copyright &copy; 2026"
