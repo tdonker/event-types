@@ -11,7 +11,7 @@ search:
 
 # Aux links shown in top-right
 aux_links:
-  "View on GitHub": "//github.com/<your-username>/<repo-name>"
+  "View on GitHub": "//github.com/tdonker/testing-the-docs2"
 
 # Footer
 footer_content: "Copyright &copy; 2026"
