@@ -43,7 +43,7 @@ A curated set of event types with corresponding definitions and literature refer
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
 
 
-### Entity Event and (Un)Keyed Event
+### Entity event and (Un)Keyed event
 * An entity is a unique thing and is keyed on the unique ID of that thing. The **entity event** describes the properties and state of an entity — most commonly an object in the business context — at a given point in time. [Building Event-Driven Microservices (by Adam Bellemare 2020) slide51](https://www.amazon.nl/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894)
 * **Unkeyed events** are used to describe an event as a singular statement of fact. An example could be an event indicating that a customer interacted with a product, such as a user opening a book entity on a digital book platform.. 
 * A **keyed events** contain a key but does not represent an entity. Keyed events are usually used for partitioning the stream of events to guarantee data locality within a single partition of an event stream.
@@ -93,11 +93,11 @@ A curated set of event types with corresponding definitions and literature refer
 * Every Event Everywhere All at Once [Jacqui Read; DDD Europe 2024](https://jacquiread.com/files/2024-05-29-Every-event-everywhere-all-at-once-dddeu.pdf)
 
 
-### Data streams vs Event streams
+### Data streams vs event streams
 * Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over data en data streams (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er **wel contextgegevens** aanwezig spreken we over events en event streams (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden). [Project Notificaties Architectuur p57](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
 
 
-### Event notification vs Event-carried state transfer
+### Event notification vs event-carried state transfer
 * Notification events: **less risk of data being out of sync** versus Event-carried state transfer: **higher risk of data being out of sync**. [EVENT TYPES by David Boyne](https://eda-visuals.boyney.io/visuals/event-types)
 
 
