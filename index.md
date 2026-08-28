@@ -2,6 +2,16 @@
 A curated overview of event types, definitions, patterns, and literature in event-driven systems
 <br>
 
+<div style="font-size: 0.8rem; line-height: 1.4;">
+
+**Recent changes**
+
+28.08.2026: Anemic Events (Mark Richard)  
+21.08.2026: CRUD events and semantic coupling (Derek Comartin)  
+...
+
+</div>
+
 *Recent changes:*<br>
 *28.08.2026: Anemic Events (Mark Richard)*<br>
 *21.08.2026: CRUD events and semantic coupling (Derek Comartin)*<br>
