@@ -1,4 +1,4 @@
-# Event Types: A Typology and Reference Guide
+## Event Types: A Typology and Reference Guide
 A curated overview of event types, definitions, patterns, and literature in event-driven systems
 <br>
 
