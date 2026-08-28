@@ -94,6 +94,9 @@ ___
 ### When is an event NOT an event?
 * So, when is an event **not** an event? [Ben Morris - Agile enterprise architecture 2020](https://www.ben-morris.com/when-is-an-event-not-an-event/)
 
+### Every Event Everywhere All at Once
+* Every Event Everywhere All at Once [Jacqui Read; DDD Europe 2024](https://jacquiread.com/files/2024-05-29-Every-event-everywhere-all-at-once-dddeu.pdf)
+
 
 ### Data streams vs Event streams
 * Wanneer gegevens over gebeurtenissen geen metadata bevatten spreken we over data en data streams (bijv. bij sensoren die alleen een pakket ruwe data leveren). Als er **wel contextgegevens** aanwezig spreken we over events en event streams (bijv. bij gebeurtenisgegevens die op basis van metakenmerken moeten worden geïnterpreteerd om verwerkt te kunnen worden). [Project Notificaties Architectuur p57](https://github.com/VNG-Realisatie/notificatieservices/blob/main/docs/achtergronddocumentatie/notificatieservices_architectuur.pdf)
