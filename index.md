@@ -5,7 +5,7 @@ A curated overview of event types, definitions, patterns, and literature in even
 
 
 ### Anemic events
-* An **anemic** event is an event whose payload doesn't contain enough information for its consumers to actually process it. An event is anemic whenever — regardless of how big or small its payload is — it leaves its consumers without enough context to act on it. [Lesson 199 - Event Driven Architecture: Anemic Events](https://www.youtube.com/watch?v=8-C2k8uLIRY)
+* An **anemic** event is an event whose payload doesn't contain enough information for its consumers to actually process it. An event is anemic whenever regardless of how big or small its payload is. It leaves its consumers without enough context to act on it. [Lesson 199 - Event Driven Architecture: Anemic Events](https://www.youtube.com/watch?v=8-C2k8uLIRY)
 
 
 ### CRUD events
