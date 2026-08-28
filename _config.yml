@@ -14,4 +14,4 @@ aux_links:
   "View on GitHub": "//github.com/tdonker/testing-the-docs2"
 
 # Footer
-footer_content: "Copyright &copy; 2026"
+footer_content: "Copyright &copy; 2026 · Last updated: <span id=\"last-updated\">checking…</span>"
