@@ -2,7 +2,6 @@
 A curated overview of event types, definitions, patterns, and literature in event-driven systems
 <br>
 <br>
-___
 <br>
 <br>
 
