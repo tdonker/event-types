@@ -4,11 +4,11 @@ A curated set of event types with corresponding definitions and literature refer
 <br>
 
 
-### Anemic events
+### Anemic event
 * An **anemic** event is an event whose payload doesn't contain enough information for its consumers to actually process it. An event is anemic regardless of how big or small its payload is. It leaves its consumers without enough context to act on it. [Lesson 199 - Event Driven Architecture: Anemic Events](https://www.youtube.com/watch?v=8-C2k8uLIRY)
 
 
-### CRUD events
+### CRUD event
 * Don't use an event broker merely to distribute **CRUD/database state changes**, as these couple consumers to the producer's internal data model; instead, use meaningful business events that represent things the business actually cares about.. [Event Driven Architecture and Coupling: You’re Not as Decoupled as You Think](https://codeopinion.com/event-driven-architecture-and-coupling-youre-not-as-decoupled-as-you-think/)
 
 
@@ -43,7 +43,7 @@ A curated set of event types with corresponding definitions and literature refer
     2. Something that happened **outside of our bounded context**. This could a Domain Event in another system or a different bounded context. [What are Domain Events? Mattias Holmqvist 2020](https://web.archive.org/web/20221201162409/https://serialized.io/ddd/domain-event/)
 
 
-### Entity Event and (Un)Keyed Events
+### Entity Event and (Un)Keyed Event
 * An entity is a unique thing and is keyed on the unique ID of that thing. The **entity event** describes the properties and state of an entity — most commonly an object in the business context — at a given point in time. [Building Event-Driven Microservices (by Adam Bellemare 2020) slide51](https://www.amazon.nl/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894)
 * **Unkeyed events** are used to describe an event as a singular statement of fact. An example could be an event indicating that a customer interacted with a product, such as a user opening a book entity on a digital book platform.. 
 * A **keyed events** contain a key but does not represent an entity. Keyed events are usually used for partitioning the stream of events to guarantee data locality within a single partition of an event stream.
@@ -65,7 +65,7 @@ A curated set of event types with corresponding definitions and literature refer
 ### Mutation event
 *
 
-### Passive-Agressive Events
+### Passive-Agressive Event
 * Events that should be commands like ' DishwasherFinished'. [Oskar Dudycz - Event-driven Modelling Anti-Patterns - EventCentric 2025](https://youtu.be/Lf1MZlpbkGA?si=RtWtBSQKBwYFqnsn&t=2731)
 
 
