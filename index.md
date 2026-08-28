@@ -67,7 +67,7 @@ ___
 
 
 ### Mutation event
-
+*
 
 ### Passive-Agressive Events
 * Events that should be commands like ' DishwasherFinished'. [Oskar Dudycz - Event-driven Modelling Anti-Patterns - EventCentric 2025](https://youtu.be/Lf1MZlpbkGA?si=RtWtBSQKBwYFqnsn&t=2731)
