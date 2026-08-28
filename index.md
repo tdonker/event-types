@@ -83,7 +83,6 @@ A curated overview of event types, definitions, patterns, and literature in even
 * Kafka even has a convention to signify deletions: a message **with a key but a null payload, also known as a tombstone**. This indicates that the record should be deleted. Due to compaction, all non-tombstone messages will eventually disappear, leaving nothing but the deletion record (and that can be auto-compacted as well). [Design patterns for asynchronous API communication (by Daniel Orner 2022)](https://stackoverflow.blog/2022/07/21/event-driven-topic-design-using-kafka/)
 
 <br>
-<br>
 
 ## Miscellaneous:
 
