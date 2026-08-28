@@ -10,26 +10,21 @@ ___
 
 ### Anemic events
 * An **anemic** event is an event whose payload doesn't contain enough information for its consumers to actually process it. An event is anemic whenever — regardless of how big or small its payload is — it leaves its consumers without enough context to act on it. [Lesson 199 - Event Driven Architecture: Anemic Events](https://www.youtube.com/watch?v=8-C2k8uLIRY)
-
 ___
 
 ### CRUD events
 * Don't use an event broker merely to distribute **CRUD/database state changes**, as these couple consumers to the producer's internal data model; instead, use meaningful business events that represent things the business actually cares about.. [Event Driven Architecture and Coupling: You’re Not as Decoupled as You Think](https://codeopinion.com/event-driven-architecture-and-coupling-youre-not-as-decoupled-as-you-think/)
-
 ___
 
 ### Data event
 * Data events describe the **state of an entity at a specific moment in time**. They may be produced at a certain rate or if the state changes. Every data event at least contains the whole state of the entity but may also include the old state to allow consumers to detect changes. Data events do not contain the reason for the change. [OTTO Consumer API Event Guidelines](https://api.otto.de/portal/guidelines/event-guidelines/concepts#data-events)
-
 ___
-
 
 ### Delta event
 * Delta events contain just the properties that changed, so just enough detail, nothing more. [The Event-Carried State Transfer pattern (by Oskar uit de Bos 2021)](https://itnext.io/the-event-carried-state-transfer-pattern-aae49715bb7f)
 * ECST messages that include  only the updated fields... [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p317](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 * As indicated by Figure 8.5, cumbersome state modification determination is not the case when using PATCH. With a **partial update**, it is straightforward to determine what the fine-grained event-based outcome is for the use case, because it is clear exactly what changed. [Strategic Monoliths and Microservices (by Vernon, Jaskula 2022) p194](https://www.informit.com/store/strategic-monoliths-and-microservices-driving-innovation-9780137355464)
 * Events can either contain absolute new values that form full reports or, as **delta** reports, communicate the changes since the previous event (identified by a “Correlation Identifier” [Hohpe 2003] or indirectly by timestamp and entity identifier. [Patterns for API Design: Simplifying Integration with Loosely Coupled Message Exchanges (by Zimmermann and others 2022) p219](https://www.informit.com/store/patterns-for-api-design-simplifying-integration-with-9780137670109)
-
 ___
 
 
