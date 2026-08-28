@@ -4,6 +4,7 @@ remote_theme: just-the-docs/just-the-docs
 
 # Just the Docs options
 color_scheme: light
+color_scheme: event_types
 search_enabled: true
 search:
   heading_level: 2
@@ -12,6 +13,8 @@ search:
 # Aux links shown in top-right
 aux_links:
   "View on GitHub": "//github.com/tdonker/testing-the-docs2"
+
+
 
 # Footer
 footer_content: "Copyright &copy; 2026 · Last updated: <span id=\"last-updated\">checking…</span>"
