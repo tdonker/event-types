@@ -75,7 +75,7 @@ ___
 
 
 ### Event-carried state transfer
-* ECST as **business** process change state. [Shifting Gears: From Events to Event-Driven • Ryan Cormack • GOTO 2024 12:06](https://youtu.be/1dWJO31wpV8?si=r3K_4tSsibGRypme&t=694)
+* ECST as **business** process change state. [Shifting Gears: From Events to Event-Driven Ryan Cormack GOTO 2024 12:06](https://youtu.be/1dWJO31wpV8?si=r3K_4tSsibGRypme&t=694)
 * De naam Event-carried State Transfer **(EST ?)** is gekozen om een beetje te contrasteren met REST. [De vier gezichten van EDA (by Koen Vanderkimpen 2022)](https://www.smalsresearch.be/de-vier-gezichten-van-eda/)
 * Whether ECST messages **include complete snapshots or only the updated fields**, a stream of such events allows consumers to hold a local cache of the entities’ states and work with it. [Learning Domain-Driven Design. Aligning Software Architecture and Business Strategy (by Vlad Khononov 2021) p316](https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/)
 * If autonomy is your driving requirement -> consider **enrichment**. [DDD re-distilled (by Yoan Thirion 2020) slide51](https://speakerdeck.com/thirion/ddd-re-distilled?slide=51)
