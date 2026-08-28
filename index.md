@@ -30,7 +30,6 @@ ___
 
 ### Discrete event
 * Think of discrete events as significant (important) **facts that have happened**, and you have downstream consumers that want to act on this information. [Understanding stream and discrete events (by David Boyne 2024)](https://eda-visuals.boyney.io/visuals/understanding-stream-and-discrete-events)
-
 ___
 
 
