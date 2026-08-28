@@ -6,9 +6,18 @@ A curated overview of event types, definitions, patterns, and literature in even
 
 **Recent changes**
 
-28.08.2026: Anemic Events (Mark Richard)  
+28.08.2026: Anemic Events (Mark Richard)<br>  
 21.08.2026: CRUD events and semantic coupling (Derek Comartin)  
-...
+11.04.2026: Domain Events (David Boyne) and ECST as business process state changes (Ryan Cormack)<br>
+22.03.2026: Passive-Agressive Events (Oskar Dudycz)<br>
+06.12.2025: Added another def of pivotal events<br>
+26.07.2025: Added Entity Events and (un)keyed events<br>
+25.01.2025: Added SAP's definition of Domain Events<br>
+10.08.2024: Addition several links<br>
+12.07.2024: Addition summary events<br>
+15.06.2024: Addition discrete events<br>
+09.06.2024: Addition pivotal events<br>
+15.05.2024: Initial version<br>
 
 </div>
 
