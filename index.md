@@ -1,4 +1,4 @@
-# Event Typology and literature references
+# Event Types: A Typology and Reference Guide
 The different types of events and literature references
 <br>
 
