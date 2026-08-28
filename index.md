@@ -2,39 +2,6 @@
 A curated overview of event types, definitions, patterns, and literature in event-driven systems
 <br>
 
-<div style="font-size: 0.8rem; line-height: 1.4;">
-
-**Recent changes**
-
-28.08.2026: Anemic Events (Mark Richard)<br>  
-21.08.2026: CRUD events and semantic coupling (Derek Comartin)  
-11.04.2026: Domain Events (David Boyne) and ECST as business process state changes (Ryan Cormack)<br>
-22.03.2026: Passive-Agressive Events (Oskar Dudycz)<br>
-06.12.2025: Added another def of pivotal events<br>
-26.07.2025: Added Entity Events and (un)keyed events<br>
-25.01.2025: Added SAP's definition of Domain Events<br>
-10.08.2024: Addition several links<br>
-12.07.2024: Addition summary events<br>
-15.06.2024: Addition discrete events<br>
-09.06.2024: Addition pivotal events<br>
-15.05.2024: Initial version<br>
-
-</div>
-
-*Recent changes:*<br>
-*28.08.2026: Anemic Events (Mark Richard)*<br>
-*21.08.2026: CRUD events and semantic coupling (Derek Comartin)*<br>
-*11.04.2026: Domain Events (David Boyne) and ECST as business process state changes (Ryan Cormack)*<br>
-*22.03.2026: Passive-Agressive Events (Oskar Dudycz)*<br>
-*06.12.2025: Added another def of pivotal events*<br>
-*26.07.2025: Added Entity Events and (un)keyed events*<br>
-*25.01.2025: Added SAP's definition of Domain Events*<br>
-*10.08.2024: Addition several links*<br>
-*12.07.2024: Addition summary events*<br>
-*15.06.2024: Addition discrete events*<br>
-*09.06.2024: Addition pivotal events*<br>
-*15.05.2024: Initial version*<br>
-<br>
 
 ### Anemic events
 * An **anemic** event is an event whose payload doesn't contain enough information for its consumers to actually process it. An event is anemic whenever — regardless of how big or small its payload is — it leaves its consumers without enough context to act on it. [Lesson 199 - Event Driven Architecture: Anemic Events](https://www.youtube.com/watch?v=8-C2k8uLIRY)
