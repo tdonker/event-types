@@ -3,7 +3,7 @@ description: A typology and reference guide for event-driven systems
 remote_theme: just-the-docs/just-the-docs
 
 # Just the Docs options
-color_scheme: light
+# color_scheme: light
 color_scheme: event_types
 search_enabled: true
 search:
