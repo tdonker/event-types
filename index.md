@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Event Typology"
 nav_exclude: true
 ---
