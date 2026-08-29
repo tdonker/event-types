@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 
 ## **Event Types: A Typology and Reference Guide**
-A curated set of event types with corresponding definitions and literature references
+###### A curated set of event types with corresponding definitions and literature references
 <br>
 <br>
 
