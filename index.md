@@ -2,6 +2,35 @@
 A curated set of event types with corresponding definitions and literature references
 <br>
 <br>
+<script>
+(function () {
+  const apiUrl =
+    "https://api.github.com/repos/tdonker/event-types/commits?path=index.md&per_page=1";
+
+  fetch(apiUrl)
+    .then(response => {
+      if (!response.ok) throw new Error("GitHub API request failed");
+      return response.json();
+    })
+    .then(commits => {
+      if (!commits.length) throw new Error("No commits found");
+
+      const date = new Date(commits[0].commit.committer.date);
+
+      const formatted = new Intl.DateTimeFormat("en-GB", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "Europe/Amsterdam"
+      }).format(date);
+
+      document.getElementById("last-updated").textContent =
+        formatted + " (CET/CEST)";
+    })
+    .catch(() => {
+      document.getElementById("last-updated").textContent = "unavailable";
+    });
+})();
+</script>
 
 
 ### Anemic event
@@ -105,7 +134,7 @@ A curated set of event types with corresponding definitions and literature refer
 <script>
 (function () {
   const apiUrl =
-    "https://api.github.com/repos/tdonker/testing-the-docs2/commits?path=index.md&per_page=1";
+    "https://api.github.com/repos/tdonker/event-types/commits?path=index.md&per_page=1";
 
   fetch(apiUrl)
     .then(response => {
