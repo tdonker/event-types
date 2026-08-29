@@ -14,7 +14,7 @@ search:
 aux_links:
   "View on GitHub": "//github.com/tdonker/event-types"
 
-logo: "/images/logo.png"
+logo: "/images/logo-event-types.png"
 
 # Footer
 footer_content: "Copyright &copy; 2026 · Last updated: <span id=\"last-updated\">checking…</span>"
