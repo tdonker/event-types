@@ -7,7 +7,7 @@ color_scheme: light
 color_scheme: event_types
 search_enabled: true
 search:
-  heading_level: 2
+  heading_level: 3
   previews: 2
 
 # Aux links shown in top-right
