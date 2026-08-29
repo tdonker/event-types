@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Event Typology"
-nav_exclude: false
+nav_exclude: true
 ---
 
 # Event Types: A Typology and Reference Guide
