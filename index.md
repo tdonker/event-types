@@ -9,7 +9,6 @@ nav_exclude: true
 <br>
 <br>
 
-
 ### Anemic event
 * An **anemic** event is an event whose payload doesn't contain enough information for its consumers to actually process it. An event is anemic regardless of how big or small its payload is. It leaves its consumers without enough context to act on it. [Lesson 199 Mark Richards - Event Driven Architecture: Anemic Events](https://www.youtube.com/watch?v=8-C2k8uLIRY)
 
