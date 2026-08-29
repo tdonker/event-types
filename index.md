@@ -4,7 +4,7 @@ title: "Event Typology"
 nav_exclude: true
 ---
 
-# Event Types: A Typology and Reference Guide
+## Event Types: A Typology and Reference Guide
 A curated set of event types with corresponding definitions and literature references
 <br>
 <br>
