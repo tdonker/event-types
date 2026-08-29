@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Event Types: A Typology and Reference Guide
+title: "Event Types: A Typology and Reference Guide"
 nav_exclude: true
 ---
 
