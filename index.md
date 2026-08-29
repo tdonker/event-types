@@ -1,6 +1,8 @@
+---
 layout: default
 title: Event Types: A Typology and Reference Guide
 nav_exclude: true
+---
 
 # Event Types: A Typology and Reference Guide
 A curated set of event types with corresponding definitions and literature references
